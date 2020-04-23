@@ -4,22 +4,27 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Personal blog</title>
+    <script defer src="https://use.fontawesome.com/releases/v5.5.0/js/all.js" integrity="sha384-GqVMZRt5Gn7tB9D9q7ONtcp4gtHIUEW/yG7h98J7IpE3kpi+srfFyyB/04OV6pG0" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     <!--************************************
     *******************Header***************
     ****************************************-->
     <header class="header">
-        <div class="logo">
-            <a href="#"><img src="images/blog-icon.jpg" alt="Logo"></a>
-        </div>
-        <div class="menu">
-            <ul id="menu-list">
-                <a href="#"><li>Work</li></a>
-                <a href="#"><li>Studio</li></a>
-                <a href="#"><li>Entertainmant</li></a>
-                <a href="#"><li>Contact</li></a>
-            </ul>
+        <div class="wrapper header-area">
+            <div class="logo">
+                <a href="#"><img src="images/logo.jpg" alt="Logo"></a>
+            </div>
+            <div class="nav-menu">
+                <ul id="nav-list">
+                    <a href="#"><li>Work</li></a>
+                    <a href="#"><li>Studio</li></a>
+                    <a href="#"><li>Entertainmant</li></a>
+                    <a href="#"><li>Contact</li></a>
+                </ul>
+            </div>
         </div>
     </header>
 
@@ -28,71 +33,111 @@
     ****************************************-->
     <section class="main-section">
         <div class="wrapper">
-            <div class="page-title">
-                <h2 class="title">Enhance programming skills</h2>
-                <input class="search" placeholder="search blog" type="search">
-            </div>
-
-            <div class="pagination">
-                <p>Everything</p>
-                <a href="#"><p>Next></p></a>
-            </div>
-            <div class="card-list">
-                <div class="card">
-                    <img src="images/html5.png" alt="html5 loaded">
-                    <h3>What changes in html and compare with old version</h3>
-                    <div class="card-footer">
-                        <p class="date">22/april/20</p>
-                        <span class="like">Like 0</span>
-                    </div>
-                </div>
-                <div class="card">
-                    <img src="images/html5.png" alt="html5 loaded">
-                    <h3>What changes in html and compare with old version</h3>
-                    <div class="card-footer">
-                        <p class="date">22/april/20</p>
-                        <span class="like">Like 0</span>
-                    </div>
-                </div>
-                <div class="card">
-                    <img src="images/css3.png" alt="html5 loaded">
-                    <h3>What changes in html and compare with old version</h3>
-                    <div class="card-footer">
-                        <p class="date">22/april/20</p>
-                        <span class="like">Like 0</span>
-                    </div>
-                </div>
-                <div class="card">
-                    <img src="images/javascript.png" alt="html5 loaded">
-                    <h3>What changes in html and compare with old version</h3>
-                    <div class="card-footer">
-                        <p class="date">22/april/20</p>
-                        <span class="like">Like 0</span>
-                    </div>
-                </div>
-                <div class="card">
-                    <img src="images/html5.png" alt="html5 loaded">
-                    <h3>What changes in html and compare with old version</h3>
-                    <div class="card-footer">
-                        <p class="date">22/april/20</p>
-                        <span class="like">Like 0</span>
-                    </div>
-                </div>
-                <div class="card">
-                    <img src="images/html5.png" alt="html5 loaded">
-                    <h3>What changes in html and compare with old version</h3>
-                    <div class="card-footer">
-                        <p class="date">22/april/20</p>
-                        <span class="like">Like 0</span>
-                    </div>
+            <div class="page-title default-padding">
+                <h2 class="title">Enhance Your programming skills</h2>
+                <div class="search-input default-padding">
+                    <input class="search" placeholder="search blog" type="search">
                 </div>
             </div>
+            <div class="default-padding">
+                <div class="pagination">
+                    <p>Everything</p>
+                    <a class="pagination-next" href="#"><p>Next></p></a>
+                </div>
+            </div>
+            <main class="main">
+                <div class="card-list default-padding">
+                    <div class="card">
+                        <div class="card__image-container">
+                            <img src="images/img-2.jpg" alt="technologies are growing fast">
+                        </div>
+                        <div class="card-content">
+                            <h3 class="card-title">What changes in html and compare with old version</h3>
+                            <div class="card-footer">
+                                <p class="date">22/april/20</p>
+                                <span class="like">Like 0</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card__image-container">
+                            <img src="images/img-1.jpg" alt="technologies are growing fast">
+                        </div>
+                        <div class="card-content">
+                            <h3 class="card-title">What changes in html and compare with old version</h3>
+                            <div class="card-footer">
+                                <p class="date">22/april/20</p>
+                                <span class="like">Like 0</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card__image-container">
+                            <img src="images/img-3.jpg" alt="technologies are growing fast">
+                        </div>
+                        <div class="card-content">
+                            <h3 class="card-title">What changes in html and compare with old version</h3>
+                            <div class="card-footer">
+                                <p class="date">22/april/20</p>
+                                <span class="like">Like 0</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card__image-container">
+                            <img src="images/img-3.jpg" alt="technologies are growing fast">
+                        </div>
+                        <div class="card-content">
+                            <h3 class="card-title">What changes in html and compare with old version</h3>
+                            <div class="card-footer">
+                                <p class="date">22/april/20</p>
+                                <span class="like">Like 0</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card__image-container">
+                            <img src="images/img-5.jpg" alt="technologies are growing fast">
+                        </div>
+                        <div class="card-content">
+                            <h3 class="card-title">What changes in html and compare with old version</h3>
+                            <div class="card-footer">
+                                <p class="date">22/april/20</p>
+                                <span class="like">Like 0</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card__image-container">
+                            <img src="images/img-4.jpg" alt="technologies are growing fast">
+                        </div>
+                        <div class="card-content">
+                            <h3 class="card-title">What changes in html and compare with old version</h3>
+                            <div class="card-footer">
+                                <p class="date">22/april/20</p>
+                                <span class="like">Like 0</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </main>
         </div>
     </section>
 
     <!--************************************
     *******************footer***************
     ****************************************-->
-    <footer class="footer"></footer>
+    <footer class="footer">
+        <div class="wrapper footer-flex">
+            <div class="social-link">
+                <a href="#"><i class="fab fa-github"></i></a>
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+                <a href="#"><i class="fab fa-facebook"></i></a>
+            </div>
+            <div class="copyright">
+                <p>&copy; copyright</p>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
