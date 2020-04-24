@@ -1,0 +1,21 @@
+.aside {
+    border-left: 1px solid;
+    padding: 10px;
+}
+.aside-cards {
+    margin-top: 30px;
+}
+.aside-card {
+    display: flex;
+    margin: 18px 0;
+    border-bottom: 1px solid gray;
+}
+.aside-card img {
+    width: 80px;
+    height: 80px;
+}
+.aside-card p {
+    font-weight: bold;
+    width: 150px;
+    margin-left: 20px;
+}

@@ -1,15 +1,6 @@
 @import "header.css";
 @import "cards.css";
-
-* {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-}
-body {
-    font-family: 'Roboto', sans-serif;
-    font-size: 16px;
-}
+@import "re-use.css";
 
 .default-padding {
     padding-top: 15px;
@@ -22,10 +13,6 @@ body {
     width: 100%;
 }
 
-.wrapper {
-    width: 80%;
-    margin: auto;
-}
 .page-title {
     text-align: center;
 }
