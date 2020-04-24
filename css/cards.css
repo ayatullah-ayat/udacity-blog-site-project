@@ -6,6 +6,7 @@
     grid-template-columns: 1fr;
 }
 
+
 @media(min-width: 530px) {
     .card-list {
         display: grid;
