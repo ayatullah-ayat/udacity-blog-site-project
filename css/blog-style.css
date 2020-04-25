@@ -1,48 +1,16 @@
 @import "header.css";
 @import "re-use.css";
 @import "aside-card.css";
-
+@import "blog-left-section.css";
 .main-blog-section {
     margin-top: 20px;
 }
 
-.main-blog {
+/* .main-blog {
     display: flex;
     flex-direction: row;
-}
+} */
 
-.blog-title {
-    font-size: 22px;
-}
-.writer-info {
-    margin: 25px 0;
-}
-.author {
-    display: flex;
-    flex-direction: row;
-}
-.avatar {
-    width: 80px;
-    border-radius: 50%;
-    border: 1px solid red;
-}
-.author-name {
-    margin-left: 20px;
-    margin-top: 20px;
 
-}
-.published-date {
-    font-weight: 200;
-    font-size: 12px;
-    color: blue;
-    text-decoration: underline;
-}
-.blog-para {
-    margin: 30px 0;
-    width: 90%;
-}
-.para-start {
-    color: blue;
-    font-size: 23px;
-}
+
 

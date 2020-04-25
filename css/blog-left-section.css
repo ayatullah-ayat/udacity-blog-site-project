@@ -1,0 +1,61 @@
+.blog-section {
+    float: left;
+    width: 75%;
+    padding: 25px;
+    overflow: hidden;
+}
+.blog-title {
+    font-size: 22px;
+}
+.writer-info {
+    margin: 25px 0;
+}
+.author {
+    display: flex;
+    flex-direction: column;
+}
+.avatar {
+    width: 40px;
+    border-radius: 50%;
+    border: 1px solid red;
+}
+.blog-img img {
+    width: 100%;
+    padding-right: 75px;
+}
+.author-name {
+    margin-left: 0;
+    margin-top: 0;
+}
+.published-date {
+    font-weight: 200;
+    font-size: 12px;
+    color: blue;
+    text-decoration: underline;
+}
+.blog-para {
+    margin: 30px 0;
+    width: 100%;
+}
+.para-start {
+    color: blue;
+    font-size: 23px;
+}
+.fig-caption {
+    font-size: 12px;
+}
+@media(min-width: 530px) {
+    .author {
+        display: flex;
+        flex-direction: row;
+    }   
+    .author-name {
+        margin-left: 20px;
+        margin-top: 20px;
+    }
+    .avatar {
+        width: 80px;
+        border-radius: 50%;
+        border: 1px solid red;
+    }
+}
